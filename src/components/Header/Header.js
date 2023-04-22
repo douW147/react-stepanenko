@@ -15,9 +15,8 @@ export default function Header() {
                     <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: "100px" }} navbarScroll>
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/about">About us</Nav.Link>
-                        <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/contacts">Contacts</Nav.Link>
-                        <Nav.Link href="/blog" disabled>Blog</Nav.Link>
+                        <Nav.Link href="/blog">Blog</Nav.Link>
                     </Nav>
                     <Form className="d-flex">
                         <Form.Control type="search" placeholder="Search" className="me-2" aria-label="Search"/>
